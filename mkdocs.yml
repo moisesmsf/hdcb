@@ -1,0 +1,22 @@
+site_name: Debian CIS Benchmarks
+repo_url: https://github.com/moisesmsf/hard-debian-benchmark.github.io
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.select
+    - navigation.instant
+    - navigation.tracking
+plugins:
+  - search:
+      lang: en
+  - tags:
+      tags_file: tags.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
