@@ -1,20 +1,9 @@
-# Welcome to MkDocs
+# Hardening + Debian + CIS Benchmarks
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This project simplifies the application of the [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks) for the [Debian Linux OS](https://www.debian.org/).
 
-## Commands
+In short, it brings the **Audit** and **Recommendation** sections of all security settings contained in the latest version to the most recent release of Debian Linux available in the [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+In [Tags](/tags) it is possible to find the recommended security configurations based on several aspects, such as the mapping between a recommendation and the [CIS Critical Security Controls (CIS Controls)](https://www.cisecurity.org/controls) version, Safeguard and Implementation Group (IG) and the mapping between a recommendation and the [MITRE ATT&CK](https://attack.mitre.org/) tactics, techniques, and mitigations.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-        
-        
-
+For full documentation visit: [CIS Benchmark Debian Linux](https://www.cisecurity.org/benchmark/debian_linux).

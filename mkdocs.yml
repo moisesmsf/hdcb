@@ -2,15 +2,6 @@ site_name: Hardening + Debian + CIS Benchmarks
 site_description: User-friendly and concise Debian CIS Benchmarks
 site_author: moisesmsf
 repo_url: https://github.com/moisesmsf/hard-debian-benchmark.github.io
-#nav:
-#  - Home: 'index.md'
-#  - '1 Initial Setup':
-#  - '2 Services':
-#  - '3 Network Configuration':
-#  - '4 Logging and Auditing':
-#  - '5 Access, Authentication and Authorization':
-#  - '6 - System Maintenance':
-#  - Tags: 'tags.md'
 theme:
   name: material
   features:
@@ -22,6 +13,10 @@ theme:
 plugins:
   - search:
       lang: en
+  - awesome-pages:
+      order: asc
+      order_by: title
+      sort_type: natural
   - tags:
       tags_file: tags.md
 markdown_extensions:
