@@ -12,5 +12,5 @@ For full documentation visit: [CIS Benchmark Debian Linux](https://www.cisecurit
 
 1. Clone this project and access the directory
 2. Follow the instructions at [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)
-3. Follow the instructions at [MkDocs Awesome Pages Plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#installation)
+3. Follow the instructions at [MkDocs Awesome Nav Plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/)
 4. Start the server (`mkdocs serve`)

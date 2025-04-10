@@ -1,0 +1,6 @@
+sort.direction: asc
+sort_by: title
+sort.type: natural
+nav:
+    - Home: index.md
+    - ...

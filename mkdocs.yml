@@ -1,7 +1,10 @@
-site_name: Hardening + Debian + CIS Benchmarks
+site_name: Hardening + Debian + CIS Benchmarks (HDCB)
+site_url: https://moisesmsf.github.io/hdcb/
 site_description: User-friendly and concise Debian CIS Benchmarks
 site_author: moisesmsf
-repo_url: https://github.com/moisesmsf/hard-debian-benchmark.github.io
+repo_url: https://github.com/moisesmsf/hdcb
+repo_name: GitHub/moisesmsf/hdcb
+edit_uri: edit/main/docs/
 theme:
   name: material
   features:
@@ -10,15 +13,45 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.footer
+    - navigation.top
+    - search.sugest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 plugins:
   - search:
       lang: en
-  - awesome-pages:
-      order: asc
-      order_by: title
-      sort_type: natural
-  - tags:
-      tags_file: tags.md
+  - tags
+  - privacy
+  - social
+  - awesome-nav
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/moisesmsf
+      name: moisesmsf on Github
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/moisesmsf
+      name: moisesmsf on Linkedin
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/moisesmsf
+      name: moisesmsf on Linkedin
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:moisesmsf@proton.me
+      name: moisesmsf's email
 markdown_extensions:
   - toc:
       permalink: "#"
